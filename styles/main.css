@@ -1,0 +1,46 @@
+/* main.css */
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #1a1a1a;
+}
+
+#menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#homepage, #about, #pricing, #faq {
+    padding: 20px;
+}
+
+#cta-button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #ff7f00;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#cta-button:hover {
+    background-color: #ff5500;
+}
